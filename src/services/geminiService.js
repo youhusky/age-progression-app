@@ -10,9 +10,9 @@ let model = null;
 
 if (API_KEY) {
     genAI = new GoogleGenerativeAI(API_KEY);
-    // User requested "gemini 3 pro". Using the model name as requested.
-    // If this model is not available, it might need to be changed to 'gemini-1.5-pro'
-    model = genAI.getGenerativeModel({ model: "gemini-3-pro-image-preview" });
+    // Initialize the model
+    // Using gemini-2.5-flash-image for efficiency and speed
+    model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-image" });
 }
 
 export const generateAgeProgression = async (imageBase64, age) => {
