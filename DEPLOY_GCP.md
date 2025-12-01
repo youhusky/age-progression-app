@@ -54,7 +54,7 @@ server {
 Run the following command in your terminal to build your container image and submit it to Google Container Registry (GCR). Replace `PROJECT_ID` with your actual Google Cloud Project ID.
 
 ```bash
-gcloud builds submit --tag gcr.io/PROJECT_ID/age-progression-app
+gcloud builds submit --tag gcr.io/gen-lang-client-0844161101/age-progression-app
 ```
 
 ### 4. Deploy to Cloud Run
@@ -63,7 +63,7 @@ Run the following command to deploy the image to Cloud Run:
 
 ```bash
 gcloud run deploy age-progression-app \
-  --image gcr.io/PROJECT_ID/age-progression-app \
+  --image gcr.io/gen-lang-client-0844161101/age-progression-app \
   --platform managed \
   --region us-central1 \
   --allow-unauthenticated

@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 // Initialize the API with the key from environment variables
 // Note: In a production app, you should proxy requests through a backend to keep the key secure.
 // For this demo/prototype, we'll use the client-side SDK directly.
-const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+const API_KEY = (window._env_ && window._env_.VITE_GEMINI_API_KEY) || import.meta.env.VITE_GEMINI_API_KEY;
 
 let genAI = null;
 let model = null;
