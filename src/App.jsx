@@ -83,8 +83,8 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>TimeCapsule AI</h1>
-        <p>Journey through time. See your future in seconds.</p>
+        <h1>GrowLens AI</h1>
+        <p>Future Portraits of Your Child</p>
         {!isApiConfigured() && (
           <div className="api-warning">
             ⚠️ API Key missing. Running in simulation mode.

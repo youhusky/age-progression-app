@@ -1,18 +1,19 @@
-# TimeCapsule AI 🚀👶➡️👴
+# GrowLens AI 🚀👶➡️🧑
 
-**Journey through time. See your future in seconds.**
+**Future Portraits of Your Child**
 
-TimeCapsule AI is a futuristic web application that uses advanced generative AI to predict and visualize age progression. Upload a photo of a baby or child, and watch as the AI generates photorealistic images of what they might look like at ages 5, 15, and 20.
+GrowLens AI reveals how your child may look as they grow — through ultra-realistic, cinematic future portraits crafted with advanced generative models. From age 5 to young adulthood, each projection blends developmental science with premium visual artistry to deliver future images that feel both magical and authentic.
 
 Authored by **Joshua Li** • Created **Dec 2025**
 
-![TimeCapsule AI Demo](public/screenshot.png) 
+![GrowLens AI Demo](public/screenshot.png) 
 *(Replace this with a screenshot of your app!)*
 
-## ✨ Features
+## ✨ Key Features
 
-*   **AI-Powered Age Progression:** Utilizes Google's Gemini 3 Pro Vision model to generate realistic aging effects.
-*   **Premium "Cosmic" Design:** A stunning, modern UI with glassmorphism, neon accents, and smooth animations.
+*   **Future Age Portraits:** See your child’s progression from early childhood to adolescence.
+*   **Cinematic Realism:** Uses the advanced `gemini-2.5-flash-image` model for high-fidelity, photorealistic results.
+*   **Premium Experience:** A beautiful, "Cosmic" themed UI with glassmorphism and smooth animations.
 *   **Instant Visualization:** Generates images for multiple age milestones (5, 15, 20 years) in parallel.
 *   **Secure & Private:** Images are processed securely via the Gemini API.
 
@@ -52,7 +53,7 @@ Authored by **Joshua Li** • Created **Dec 2025**
 
 *   **Frontend:** React, Vite
 *   **Styling:** CSS3 (Glassmorphism, Animations, Responsive Design)
-*   **AI Model:** Google Gemini 3 Pro (via `@google/generative-ai` SDK)
+*   **AI Model:** Google Gemini 2.5 Flash Image (via `@google/generative-ai` SDK)
 
 ## 📄 License
 
