@@ -6,7 +6,7 @@ TimeCapsule AI is a futuristic web application that uses advanced generative AI 
 
 Authored by **Joshua Li** • Created **Dec 2025**
 
-![TimeCapsule AI Demo](public/vite.svg) 
+![TimeCapsule AI Demo](public/screenshot.png) 
 *(Replace this with a screenshot of your app!)*
 
 ## ✨ Features
